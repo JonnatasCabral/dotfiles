@@ -1,0 +1,7 @@
+[user]
+	email = matiasjonnatas@gmail.com
+	name = JonnatasCabral
+[core]
+	editor = subl -w
+[color]
+	ui = true
