@@ -84,9 +84,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -115,14 +112,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
-source /usr/local/bin/virtualenvwrapper_lazy.sh
-
-export JAVA_HOME=/usr/lib/jvm/default-java
-export CATALINA_HOME=~/path/to/tomcat
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
