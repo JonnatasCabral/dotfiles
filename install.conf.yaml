@@ -7,18 +7,4 @@
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-
-
-<<<<<<< HEAD
-- clean: ['~']
-
-- link:
-    ~/.profile: profile
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
-    ~/.gitconfig: gitconfig
-    ~/.zshrc: zshrc
-
-
-=======
->>>>>>> b68bd11... Initial commit
+    ~/.irbrc: irbrc
